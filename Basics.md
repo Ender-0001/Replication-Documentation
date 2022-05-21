@@ -19,7 +19,7 @@ The high level flow looks like this:
       * In this case, this actor will only send to a single connection.
 
    * For any actor that passes these initial checks, `AActor::PreReplication` is called.
-      * PreReplication is a place where you can decide if you want properties to replicate for connections. Use the DOREPLIFETIME_ACTIVE_OVERRIDE for this.
+      * PreReplication is a place where you can decide if you want properties to replicate for connections. Use the `DOREPLIFETIME_ACTIVE_OVERRIDE` for this.
 
    * If we pass the above, add to the considered list
 
