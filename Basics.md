@@ -52,7 +52,7 @@ The high level flow looks like this:
 
 # Replicating an Actor to a Connection
 
-`UChannel::ReplicateActor` is the workhorse for replicating an actor and all of its components to a connection. The flow looks something like this:
+`UActorChannel::ReplicateActor` is the workhorse for replicating an actor and all of its components to a connection. The flow looks something like this:
 
 * Determine if this is the first update since this actor channel was opened
 
